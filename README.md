@@ -9,4 +9,4 @@
             
                         $ echo Hello again.
                           Hello again.
-        - The echo command is very useful for finding expansions of shell globs (“wildcards” such as *) and variables (such as $HOME), which you will encounter later in this chapter.
+        - The echo command is very useful for finding expansions of shell globs (“wildcards” such as *) and variables (such as $HOME).
