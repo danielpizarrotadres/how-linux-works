@@ -20,3 +20,7 @@
     Unix has a directory hierarchy that starts at /, sometimes called the root directory. There are several standard subdirectories in the root directory such as /usr.
 
   When you refer to a file or directory, you specify a path or pathname. When a path starts with / (such as /usr/lib) it is a full or absolute path.
+
+  A path component identified by two dots (..) specifies the parent of a directory. For example, if you are working in /usr/lib, the path .. would refer to /usr. Similarly, ../bin would refer to /usr/bin.
+
+  
