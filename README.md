@@ -33,4 +33,10 @@
             
                         $ echo *
 
-  
+
+        - Here are some ways to use the glob chracter * to expand or search filenames:
+         
+
+                        at* expands to all filenames that start with at.
+                        *at expands to all filenames that end with at.
+                        *at* expands or search to all filenames that contain at.
