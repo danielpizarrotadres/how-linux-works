@@ -1,6 +1,6 @@
 - ### 2.1 The Bourne Shell: /bin/sh
 
-- ### 2.1 Using the Shell
+- ### 2.2 Using the Shell
 
 - ### 2.3 Basic Commands
 
@@ -25,5 +25,12 @@
   A path not beginning with / is called a relative path. Most of the time, you will work with relative pathnames, because you will already be in the directory you need to be in our somewhere close by.
 
   ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/18bd2727-d628-45b5-adc7-e158650e4653)
+
+  
+    - [ ] 2.4.4 Shell Globbing (Wildcards)
+        - The shell can match simple patterns to file and directory names, a process known as globbing. This is similar to the concept of wildcards in other systems. The simplest of these is the glob character * which tells the shell to match any number or arbitrary characters. For example, the following command prints a list of files in the current directory:
+
+            
+                        $ echo *
 
   
