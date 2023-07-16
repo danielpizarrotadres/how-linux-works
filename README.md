@@ -58,3 +58,7 @@
 - ### 2.7 Dot Files
 
     By changing to your home directory, you can take a look around with **ls** command, and then run the **ls -a**. Do you see the difference in the output? When you run **ls** without the **-a**, you will not see the configuration files called **dot files**. These are files and directories whose names begin with a dot (.). Common dot fils are **.bashrc** and **.login**, and there are dot directories, too such as **.ssh**.
+
+- ### 2.8 Environment and Shell Variables
+
+    The shell can store temporary variables, called shell variables, containing the values of text strings. Shell variables are very useful for keeping track of values in scripts, and some shell variables control the way the shell behaves. (For example, the **bash* shell reads the PS1 variable before displating the prompt.)
