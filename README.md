@@ -54,3 +54,7 @@
 
             
                         $ grep root /etc/*
+
+- ### 2.7 Dot Files
+
+    By changing to your home directory, you can take a look around with **ls** command, and then run the **ls -a**. Do you see the difference in the output? When you run **ls** without the **-a**, you will not see the configuration files called **dot files**. These are files and directories whose names begin with a dot (.). Common dot fils are **.bashrc** and **.login**, and there are dot directories, too such as **.ssh**.
