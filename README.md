@@ -62,3 +62,12 @@
 - ### 2.8 Environment and Shell Variables
 
     The shell can store temporary variables, called shell variables, containing the values of text strings. Shell variables are very useful for keeping track of values in scripts, and some shell variables control the way the shell behaves. (For example, the **bash* shell reads the PS1 variable before displating the prompt.)
+
+- ### 2.9 The Command Path
+
+    **PATH** is a special environment variable that contains the **comand path* (or **path* for short). A command path is a list of system directories that the shell searches when tring to locate a command. For example, when you run **ls**, the shell searches the directories listed in **PATH** for the **ls** program. If programs with the same name appear in several directories in the path, the shell runs the first matching program.
+
+    If you run **echo $PATH**, you will see that the path compronents are separated by colons (:). For example:
+
+                        $ echo $PATH
+                        /usr/local/bin:/usr/bin:/bin
