@@ -40,3 +40,17 @@
                         at* expands to all filenames that start with at.
                         *at expands to all filenames that end with at.
                         *at* expands or search to all filenames that contain at.
+
+- ### 2.5 Intermediate Commands
+
+    - [] 2.5.1 grep
+
+        - The grep command prints the lines from a file or input stream that match an expression. For example. to print the lines in the /etc/passwrd file that contain the text root, enter this:
+     
+            
+                        $ grep root /etc/passwd
+
+        - The grep command is extraordinarily handy when operating on multiple files at once because it prints the filename in addition to the matching line. For example, if you want to check every file in /etc that contains the word root, you could use this command:
+
+            
+                        $ grep root /etc/*
