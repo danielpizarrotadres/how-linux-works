@@ -43,7 +43,7 @@
 
 - ### 2.5 Intermediate Commands
 
-    - [] 2.5.1 grep
+    - [ ] 2.1.1 grep
 
         - The grep command prints the lines from a file or input stream that match an expression. For example. to print the lines in the /etc/passwrd file that contain the text root, enter this:
      
