@@ -71,3 +71,15 @@
 
                         $ echo $PATH
                         /usr/local/bin:/usr/bin:/bin
+
+- ### 2.19 Linux Directory Hierarchy Essentials
+
+    Here are the most important subdirectories in root:
+
+    - **/bin** Contains ready-to-run programs (also known as an executables), including most of the basic Unix commands such as *ls* and *cp*. Most of the programs in */bin* are in binary format, having been created by a C compiler, but some are shell scripts in modern systems.
+
+    - **/dev** Contains device files.
+  
+    - **/etc** This core systems configuration directory (pronounced *EHT-see*) contains the user password, boot, device, networking, and other setup files. Many intems in */etc* are specific to the hardware of the machine. For example, the */etc/X11* directory contains graphics card and window system configurations.
+
+    - **/home** Holds personal directories for regular users. Most Unix installations conform to this standard.
