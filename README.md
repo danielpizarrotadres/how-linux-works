@@ -95,3 +95,9 @@
   This type of network is ubiquous; most home and small office networks are configured this way. **Each machine connected to the network is called a *host***. The hosts are connected to a *router*, which is a host that **can move data from one network to another (LAN)**. The connections on the **LAN** can be wired or wireless.
 
   The router is also connected to the Internet (the cloud in the figure). Because the router is connected to both the LAN and the Internet, all machines on the LAN also have access to the Internet through the router. One of the goals of this chapter is to see how the router provides this access.
+
+- ### 9.1.1 Packets
+
+  A computer transmits data over a network in small chunks called *packets* which consist of two parts: a *header* and a *payload*. The header contains identifying information such as the origin/destination hosts and basic protocol. The payload, on the other hand, is the actual application data that the computer wants to send (for example, HTML or image data).
+
+  Packets allow a host to communicate with others "simultaneously", because hosts can send, receive, and process packets in any order, regardless of where they came from or where they are going. Breaking messages into smaller units also makes it easier to detect and compensate for errors in transmission.
