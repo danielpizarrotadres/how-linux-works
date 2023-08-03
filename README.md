@@ -90,8 +90,8 @@
 
   Before getting into the theory of network layers, take a look at the simple network shown in the following image:
 
-![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/cb4cfdf7-d106-42f9-a881-7e608c74fc75)
-
+  ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/cb4cfdf7-d106-42f9-a881-7e608c74fc75)
+    
   This type of network is ubiquous; most home and small office networks are configured this way. **Each machine connected to the network is called a *host***. The hosts are connected to a *router*, which is a host that **can move data from one network to another (LAN)**. The connections on the **LAN** can be wired or wireless.
 
   The router is also connected to the Internet (the cloud in the figure). Because the router is connected to both the LAN and the Internet, all machines on the LAN also have access to the Internet through the router. One of the goals of this chapter is to see how the router provides this access.
