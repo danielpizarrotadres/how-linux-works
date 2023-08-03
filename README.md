@@ -101,3 +101,5 @@
   A computer transmits data over a network in small chunks called *packets* which consist of two parts: a *header* and a *payload*. The header contains identifying information such as the origin/destination hosts and basic protocol. The payload, on the other hand, is the actual application data that the computer wants to send (for example, HTML or image data).
 
   Packets allow a host to communicate with others "simultaneously", because hosts can send, receive, and process packets in any order, regardless of where they came from or where they are going. Breaking messages into smaller units also makes it easier to detect and compensate for errors in transmission.
+
+  For the most part, you do not have to worry about translating between packets and the data that your application uses, because the operating system has facilities that do this for you. However, it is helful to know the role of packets in the network layers that you are about to see.
