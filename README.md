@@ -71,6 +71,22 @@
 
                         $ echo $PATH
                         /usr/local/bin:/usr/bin:/bin
+  
+- ### 2.18 Archiving and Compressing Files
+
+    Now that you have learned about files, you need to master in `gzip` and `tar`.
+
+    - [ ] 2.18.1 gzip
+
+        - The program `gzip`(GNU Zip) is one of the current standard Unix compression programs. A file that ends with `.gz` is GNU Zip archive. Use `gunzip file.gz` to uncompress <file>.gz and remove the suffix; to compress it again use `gzip file`.
+
+    - [ ] 2.18.2 tar
+
+        - Unlike zip programs for other operating systems, gzip does not create archives of files; that is, it does not pack multiple files and directories into one file. To create an archive: use `tar`instead:
+
+                        $ tar cvf archive.tar file1 file2 ...
+
+        - Archives created by `tar`usually have a .tar suffix (this is by convention; it is not required). For example, in the command above, `file1`, file2`, and so on are the names of the files and directories that you wish to archive in <archive>.tar. The c flag activates *create mode*. The r and f flags have more specific roles.
 
 - ### 2.19 Linux Directory Hierarchy Essentials
 
