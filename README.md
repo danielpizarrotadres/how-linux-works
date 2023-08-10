@@ -86,7 +86,15 @@
 
                         $ tar cvf archive.tar file1 file2 ...
 
-        - Archives created by `tar`usually have a .tar suffix (this is by convention; it is not required). For example, in the command above, `file1`, file2`, and so on are the names of the files and directories that you wish to archive in <archive>.tar. The c flag activates *create mode*. The r and f flags have more specific roles.
+        - Archives created by `tar`usually have a .tar suffix (this is by convention; it is not required). For example, in the command above, `file1`, `file2`, and so on are the names of the files and directories that you wish to archive in <archive>.tar. The c flag activates *create mode*. The r and f flags have more specific roles.
+         
+            **Unnpacking tar files**
+
+      - To unpack a `.tar` file with tar use the x flag:
+
+                       $ tar xvf archive.tar
+
+      - In this command, the x flag puts `tar` into *extract (unpack) mode*. You can extract individual parts of the archive 
 
 - ### 2.19 Linux Directory Hierarchy Essentials
 
