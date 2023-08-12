@@ -127,3 +127,18 @@
   Packets allow a host to communicate with others "simultaneously", because hosts can send, receive, and process packets in any order, regardless of where they came from or where they are going. Breaking messages into smaller units also makes it easier to detect and compensate for errors in transmission.
 
   For the most part, you do not have to worry about translating between packets and the data that your application uses, because the operating system has facilities that do this for you. However, it is helful to know the role of packets in the network layers that you are about to see.
+
+- ### 9.2 Network Layers
+
+  Rather than start at the very bottom of the network stack with the pjysical layer, we will start at the network layer because it can be easier to understand. The internal as we currently know it is based on the Internet Protocol, version 4 (IPv4), though version 6 (IPv6) is gaining adoption. One of the most important aspects of the Internet layer is that it is meant to be a software network that places no particular requirements on hardware or operating systems.
+
+  The topology of the Internet is decentralized; it is made up of smaller networks called `subnet`. The idea is that all subnets are interconnected in some way. For example, the following image shows a representation of a LAN.
+
+  A host can be attached to more than one subnet. As you saw in **9.1 Network Basics**, that kind of host is called a router if it can transmit data from one subnet to another (another term for router is `gateway`.)
+
+  Each Internet host hast at least one numeric *IP address* in the form of *a.b.c.d*, such as 10.23.2.37. An address in this notation is called a *dotted-quad* sequence. If a host is connected to multiple subnets, it has at least one IP address per subnet. Each IP address of host be unique across the entire Internet, but as you will see later, private networks AND NAT can make this a little confusing.
+
+    ![Screenshot from 2023-08-11 22-00-29](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/da4a20ba-8da5-4955-88c9-a50d7a742e6b)
+    
+  Technically, an IP address consists of 4 bytes (or 32 bits), abcd. Bytes a and d are numbers from to 254, and b and c are numbers from 0 to 255. A computer processes IP addresses as raw bytes. However, it is much easier for a human to read and write a dotted-quad address, such as 10.23.2.37, instead of something ugly like the hexadecimal 0x0A170255.
+  
