@@ -143,4 +143,26 @@
   **About IP Address**
 
   Technically, an IP address consists of 4 bytes (or 32 bits), abcd. Bytes a and d are numbers from to 254, and b and c are numbers from 0 to 255. A computer processes IP addresses as raw bytes. However, it is much easier for a human to read and write a dotted-quad address, such as 10.23.2.37, instead of something ugly like the hexadecimal 0x0A170255.
-  
+
+  The **Internet Protocol (IP)** is one of the core protocols in the layers of the Internet, as you might guess from its name. It is used in all Internet communication to handle both addressing and routing.
+
+  The protocol describes the use of **IP address** to uniquely identify Internet-connected devices. Just like homes need mailing addresses to receive mail, Internet-connected devices need an IP address to receive messages.
+
+  When a computer sends a message to another computer, it must specify the IP address of the recipient and also include its own IP address so that the second computer can reply.
+
+  **IPv4 addresses**
+
+  There are actually two versions of the Internet Protocol in use today:
+
+  - IPv4 👉 the first version ever used on the Internet
+  - IPv6 👉 a backwards-compatible successor
+ 
+  In the IPv4 protocol, IP addresses look like this:
+
+  **74.125.20.113**
+
+  *Try visiting that IP in your browser. Where does it go? ✨
+
+  Each IP address is split into 4 numbers, and each of those numbers can range from 0 to 255:
+
+  [0-255].[0-255].[0-255].[0-255]
