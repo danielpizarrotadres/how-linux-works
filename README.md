@@ -161,6 +161,8 @@
 
   **74.125.20.113**
 
+  
+
   *Try visiting that IP in your browser. Where does it go?* ✨
 
   Each IP address is split into 4 numbers, and each of those numbers can range from 0 to 255:
@@ -176,3 +178,15 @@
   Overall, that is 2³² possible values: 4,294,967,296 possible IPv4 addresses.
 
   That is a lot! But remember, in the beginning, we said there are more than four billion devices connected to the Internet? Well, we are reaching the limit of possible IP addresses. It is time for plan B.
+
+  **About the Structure of IPv4 Addresses**
+
+  So, this numbers:
+
+  74.125.20.113 ▶️ [0-255].[0-255].[0-255].[0-255] ▶️ 01010101 01010101 01010101 01010101
+
+  Are the main structure of an IP Address. These numbers are typically referred to as "octets" because they are **8-bit numbers**. An 8-bit number means it is composed of 8 binary digits (bits), and each bit can be either a 0 or a 1.
+
+  The reason each of these numbers can represent **2⁸** (which is 256) values is because of the number of possible combinations that can be formed with 8 binary digits (bits). Each bit can be either 0 or 1, and with 8 bits, you have 2⁸ = 256 possible combinations. So, for an 8-bit number, you can count from 0 to 255, which gives you a total of 256 values.
+
+  So this menas to the fact that each of the four numbers in an IPv4 address is composed of 8 bits, and each bit can have two possible values =0 or 1), resulting in total of 256 possible values for each number in the address.
