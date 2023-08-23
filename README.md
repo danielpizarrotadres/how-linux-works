@@ -4,12 +4,22 @@
 
 - ### 2.3 Basic Commands
 
+    - [ ] 2.3.3 cp
+
+        - In its simplest form, `cp` copies files. For example, to copy `file1` to `file2` enter this:
+
+                        $ cp file1 file2
+
+        - To copy a number of files to a directory (folder) named `dir`, try this instead:
+
+                        $ cp file1 ... fileN dir
+
     - [ ] 2.3.6 echo
         - The echo command prints its arguments to the standard output:
-
             
                         $ echo Hello again.
                           Hello again.
+
         - The echo command is very useful for finding expansions of shell globs (“wildcards” such as *) and variables (such as $HOME).
          
 - ### 2.4 Navigating Directories
