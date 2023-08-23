@@ -165,4 +165,4 @@
 
   Each IP address is split into 4 numbers, and each of those numbers can range from 0 to 255:
 
-  [0-255].[0-255].[0-255].[0-255]
+  `[0-255].[0-255].[0-255].[0-255]`
