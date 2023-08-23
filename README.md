@@ -166,3 +166,13 @@
   Each IP address is split into 4 numbers, and each of those numbers can range from 0 to 255:
 
   `[0-255].[0-255].[0-255].[0-255]`
+
+  We write those numbers in decimal, but the computer stores them in binary like so:
+
+  `01010101 01010101 01010101 01010101`
+
+  Each number can represent 2⁸ values, thanks to the 8 bits. That is also why we often call them "octets."
+
+  Overall, that is 2³² possible values: 4,294,967,296 possible IPv4 addresses.
+
+  That is a lot! But remember, in the beginning, we said there are more than four billion devices connected to the Internet? Well, we are reaching the limit of possible IP addresses. It is time for plan B.
