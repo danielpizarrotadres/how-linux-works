@@ -161,7 +161,7 @@
 
   **74.125.20.113**
 
-  *Try visiting that IP in your browser. Where does it go? ✨
+  *Try visiting that IP in your browser. Where does it go?* ✨
 
   Each IP address is split into 4 numbers, and each of those numbers can range from 0 to 255:
 
