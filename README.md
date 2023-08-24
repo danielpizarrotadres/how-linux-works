@@ -200,3 +200,6 @@
   The reason each of these numbers can represent **2⁸** (which is 256) values is because of the number of possible combinations that can be formed with 8 binary digits (bits). Each bit can be either 0 or 1, and with 8 bits, you have 2⁸ = 256 possible combinations. So, for an 8-bit number, you can count from 0 to 255, which gives you a total of 256 values.
 
   So this menas to the fact that each of the four numbers in an IPv4 address is composed of 8 bits, and each bit can have two possible values =0 or 1), resulting in total of 256 possible values for each number in the address.
+
+  ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/9aba286c-f662-4de6-ad44-63be69ed364a)
+
