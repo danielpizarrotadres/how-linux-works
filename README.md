@@ -203,3 +203,12 @@
 
   ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/9aba286c-f662-4de6-ad44-63be69ed364a)
 
+  🔍 **What is your IP address?**
+
+  One way to find out the IP of your computer is by searching Google for "IP address". Google knows your IP address, since your computer sends a message to the Google computers as soon as it loads `google.com`.
+
+  Your IP address might be different tomorrow than it is today. Each ISP has a range of addresses they can assign, and they might give you a different one of those addresses each time they see your computer pop up on the network. That is called a **dynamic** IP address.
+
+  Switching to a different Wi-Fi network will definitely give you a new IP address, since each Wi-Fi provider has its own range of addresses that it can give out.
+
+  Computers that act as servers, like the computers that power Google.com or Amazon Web Services, often have **static** IP addresses. That makes it easier for computers to quickly send search requests to the Google servers. If you tried out the IP address above, you hopefully found youself on the Google homepage.
