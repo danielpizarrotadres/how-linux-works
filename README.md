@@ -81,6 +81,25 @@
 
                         $ echo $PATH
                         /usr/local/bin:/usr/bin:/bin
+
+- ### 2.17 File Modes and Permissions
+
+    Every Unix file has a set of *permissions* that determine whether you can read, write or run the file. Running `ls l` displays the permissions. Here is an example fo such a display:
+
+                        $ ls -l
+                       -rw-rw-r-- 1 daniel daniel 1151 sep 11 08:47 Reminder
+
+    The mode of the file (1) represents the permissions of the file and some extra information. There are four parts to the mode.
+
+    The first character of the mode is the *file type*. A dash (-) in this position, as in the example, denotes a *regular* file, meaning that there is nothing special about the file. This is by far the most commond kind of file. Directories are also common and are indicated by a **d** in the first type slot. (3.1 Device Files lists the remaining file types.)
+
+  ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/7973ad30-8ca1-4c31-9c0f-33db20294e50)
+
+  The rest of the file contains the permissions, which break down into three sets: *user, group*, and *other*, in that order. For example, the *rw-* characters in the example are the user permissions, there *r--* characters that follow are the group permissions, and the final *r--* characters are the other permissions.
+
+  - **x** Means that the file is readable
+  
+    - [ ] 2.18.1 gzip
   
 - ### 2.18 Archiving and Compressing Files
 
