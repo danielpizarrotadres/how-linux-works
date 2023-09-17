@@ -93,14 +93,14 @@
 
     The first character of the mode is the *file type*. A dash (-) in this position, as in the example, denotes a *regular* file, meaning that there is nothing special about the file. This is by far the most commond kind of file. Directories are also common and are indicated by a **d** in the first type slot. (3.1 Device Files lists the remaining file types.)
 
-  ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/7973ad30-8ca1-4c31-9c0f-33db20294e50)
+  ![image](https://github.com/danielpizarrotadres/how-linux-works/assets/118082275/09583ae8-27e0-42be-baaf-4425a60cd805)
 
   The rest of the file contains the permissions, which break down into three sets: *user, group*, and *other*, in that order. For example, the *rw-* characters in the example are the user permissions, there *r--* characters that follow are the group permissions, and the final *r--* characters are the other permissions.
 
-  - **x** Means that the file is readable
-  - **w** Means that the file is writable
-  - **x** Means tha the file is executale (you can run it as a program)
-  - **-** Means nothing
+  - **x:** Means that the file is readable
+  - **w:** Means that the file is writable
+  - **x:** Means tha the file is executale (you can run it as a program)
+  - **-:** Means nothing
   
     - [ ] 2.18.1 gzip
   
