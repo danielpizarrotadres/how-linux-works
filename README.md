@@ -101,6 +101,8 @@
   - **w:** Means that the file is writable
   - **x:** Means tha the file is executale (you can run it as a program)
   - **-:** Means nothing
+ 
+  The user permissions (the first set) pertain to the user who owns the file. In the preceding example, that is **daniel**. The second set, group permissions, are for the group of file (**daniel** in the example). Any user in that group can take advatange of thee permissions. Use the `groups` command to see what group you are in, and see **7.3.5 Working wirh Groups** for more information)
   
     - [ ] 2.18.1 gzip
   
