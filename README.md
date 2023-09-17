@@ -86,8 +86,8 @@
 
     Every Unix file has a set of *permissions* that determine whether you can read, write or run the file. Running `ls l` displays the permissions. Here is an example fo such a display:
 
-                        $ ls -l
-                       -rw-rw-r-- 1 daniel daniel 1151 sep 11 08:47 Reminder
+      $ ls -l
+      -rw-rw-r-- 1 daniel daniel 1151 sep 11 08:47 Reminder
 
     The mode of the file (1) represents the permissions of the file and some extra information. There are four parts to the mode.
 
@@ -98,6 +98,9 @@
   The rest of the file contains the permissions, which break down into three sets: *user, group*, and *other*, in that order. For example, the *rw-* characters in the example are the user permissions, there *r--* characters that follow are the group permissions, and the final *r--* characters are the other permissions.
 
   - **x** Means that the file is readable
+  - **w** Means that the file is writable
+  - **x** Means tha the file is executale (you can run it as a program)
+  - **-** Means nothing
   
     - [ ] 2.18.1 gzip
   
